@@ -1,0 +1,110 @@
+<DOCTYPE.html>
+    <html>
+        <head>
+            <title>Life Coders</title>
+            <link rel="stylesheet" href="main.css">
+        </head>
+        <header class="header-section">
+            <div class="wrap">
+              <div class="header-wrapper">
+                <div class="brand">
+                   <a href = "main.html">
+                        <img src = "logo.png" width = "80" height = "80">
+                    </a>
+                </div>
+                <div class="navigation">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="main.html" class="menu-link">Home</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="ask us.html" class="menu-link">Ask Us</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="share.html" class="menu-link">Share</a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </header>
+        <div class="container">
+            <section class="hero">
+                <div class="wrap">
+                    <div class="hero-wrapper">
+                        <div class = "bg-pic">
+                        <div class="hero-title">
+                          <h1>Life Coders</h1>
+                          <p>Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pages">
+                <div class="wrap">
+                  <div class="pages-wrapper">
+                    <div class="page page1" id="page-1">
+                      <div class="image">
+                        <a href="page-1.html"><img src= "contributions.png" width="248" height="165"/></a>
+                      </div>
+                      <div class="page-title">
+                        <h2><a href="page-1.html">Contributions</a></h2>
+                      </div>
+                      <div class="page-description">
+                        <p>Delve into the vast contributions of computer science to society, in particular, those that involve sophisticated coding which serves as a helping hand for society, research, and more!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="page page2" id="page-1">
+                      <div class="image">
+                        <a href="page2.html"><img src= "https://unsplash.it/300/200?image=502" /></a>
+                      </div>
+                      <div class="page-title">
+                        <h2><a href="page2.html">Page 2</a></h2>
+                      </div>
+                      <div class="page-description">
+                        <p>Lorem ipsum ut habitasse urna lobortis ultricies molestie a fermentum, ut ultricies id elementum sagittis et facilisis laoreet lacus sagittis, dictumst cubilia congue dictumst sollicitudin eget imperdiet augue.</p>
+                      </div>
+                    </div>
+                    <div class="page page3">
+                      <div class="image">
+                        <a href="page3.html"><img src= "https://unsplash.it/300/200?image=503" /></a>
+                      </div>
+                      <div class="page-title">
+                        <h2><a href="page3.html">Page 3</a></h2>
+                      </div>
+                      <div class="page-description">
+                        <p>Lorem ipsum ut habitasse urna lobortis ultricies molestie a fermentum, ut ultricies id elementum sagittis et facilisis laoreet lacus sagittis, dictumst cubilia congue dictumst sollicitudin eget imperdiet augue.</p>
+                      </div>
+                    </div>
+                    <div class="page page4">
+                      <div class="image">
+                        <a href="page4.html"><img src= "https://unsplash.it/300/200?image=504" /></a>
+                      </div>
+                      <div class="page-title">
+                        <h2><a href="page4.html">Page 4</a></h2>
+                      </div>
+                      <div class="page-description">
+                        <p>Lorem ipsum ut habitasse urna lobortis ultricies molestie a fermentum, ut ultricies id elementum sagittis et facilisis laoreet lacus sagittis, dictumst cubilia congue dictumst sollicitudin eget imperdiet augue.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            </div>
+            <footer class="footer-section">
+                <div class="wrap">
+                  <div class="footer-navigation-wrapper">
+                    <ul class="footer-menu">
+                      <li class="menu-item">
+                        <a href="main.html" class="menu-link">Home</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="about.html" class="menu-link">About</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </footer>
+    </html>
