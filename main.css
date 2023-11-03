@@ -1,0 +1,192 @@
+
+.wrap{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  margin-top: 27px;
+}
+.hero .wrap .hero-wrapper .hero-description p{
+  text-align: center;
+  font-family: Verdana;
+}
+.hero .wrap .maste{
+  border: 5px solid black;
+ border-radius: 50px;
+ padding: 20px
+}
+.hero .wrap .hero-wrapper .social-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.hero .wrap .hero-wrapper .social-media img{
+ border: 5px solid black;
+ border-radius: 50px;
+}
+.hero .wrap .hero-wrapper .hero-title h1{
+  text-align: center;
+  font-family: Verdana;
+}
+
+.header-section .wrap .header-wrapper .brand a img {
+    border-radius: 50px;
+}
+.header-section .wrap .header-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Verdana;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 20px;
+}
+.header-section .wrap .header-wrapper .navigation .menu{
+  display: flex;
+  flex-direction: row;
+}
+.header-section .wrap .header-wrapper .navigation .menu .menu-item{
+  list-style: none;
+  margin-right: 20px
+}
+.header-section .wrap .header-wrapper .navigation .menu .menu-item:last-child{
+  margin-right: 0;
+}
+.header-section .wrap .header-wrapper .navigation .menu .menu-item .menu-link{
+  padding: 5px 12px;
+  text-decoration: none;
+}
+.header-section .wrap .header-wrapper .navigation .menu .menu-item .menu-link:hover{
+  text-decoration: underline;
+}
+
+body{
+    background-image: linear-gradient(to bottom, white, lightblue);
+}
+
+.container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container section{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container section:first-child{
+  margin-top: 0;
+}
+.container section:last-child{
+  margin-bottom: 0;
+}
+.container .hero .wrap .hero-wrapper{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.container .hero .wrap .hero-wrapper .hero-title{
+  width: 30%;
+}
+.container .hero .wrap .hero-wrapper .hero-title h1{
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+} 
+.container .hero .wrap .hero-wrapper .hero-title p{
+  color: white;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  margin-left: 50px;
+} 
+.container .hero .wrap .hero-wrapper {
+  background-image: url(main-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-position: center;
+}
+
+.container .pages{
+  margin-top: 27px;
+}
+.container .pages .wrap .pages-wrapper{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+}
+.container .pages .wrap .pages-wrapper .page{
+  width: 24%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+  border-radius: 10px;
+}
+.container .pages .wrap .pages-wrapper .page .image img{
+  width: 100%;  
+  object-fit: cover;
+  height: auto;
+}
+.container .pages .wrap .pages-wrapper .page .page-title h2{
+  text-align: center;
+  font-family: Verdana;
+  color: blue;
+}
+.container .pages .wrap .pages-wrapper .page .page-title h2 a{
+  text-decoration: none;
+  font-family: Verdana;
+}
+.container .pages .wrap .pages-wrapper .page .page-title h2 a:hover{
+  text-decoration: underline;
+}
+.container .pages .wrap .pages-wrapper .page .page-description p{
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.container .hero .wrap .hero-title h1{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.container .hero .wrap .hero-description p{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-section .wrap .footer-navigation-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-section .wrap .footer-navigation-wrapper .footer-menu{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  gap: 10px;
+}
+.footer-section .wrap .footer-navigation-wrapper .footer-menu .menu-item{
+  list-style: none;
+  font-family: Verdana;
+}
+.footer-section .wrap .footer-navigation-wrapper .footer-menu .menu-item .menu-link{
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.footer-section .wrap .footer-navigation-wrapper .footer-menu .menu-item .menu-link:hover{
+  text-decoration: underline;
+}
