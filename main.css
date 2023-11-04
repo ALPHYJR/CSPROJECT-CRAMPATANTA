@@ -197,3 +197,28 @@ body{
 .footer-section .wrap .footer-navigation-wrapper .footer-menu .menu-item .menu-link:hover{
   text-decoration: underline;
 }
+
+button
+{
+  height:30px;
+  width:150px;
+  border-radius:8px;
+  padding:10px;
+  font-size:20px;
+  font-family: Verdana;
+  height:52px;
+  cursor:pointer;
+  background-color:wheat;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.share p{
+  text-align: center;
+  font: size 30px;
+  font-family: Verdana;
+}
